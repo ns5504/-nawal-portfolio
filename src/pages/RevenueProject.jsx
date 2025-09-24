@@ -5,16 +5,22 @@ import { Target, BarChart, CheckCircle, TrendingUp } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 
 const projectData = {
-  title: 'Superstore Sales & Profitability Dashboard',
-  category: 'Financial Analysis',
-  description: 'Designed an interactive Excel dashboard analyzing Superstore sales, profit margins, and discounting strategies. Identified that discounts above 30% consistently led to negative profits, especially in Furniture, and recommended revised pricing strategies. Delivered executive-level insights on regional performance, seasonal trends, and customer segmentation.',
-  // Put image in portfolio/public and reference with a leading slash
-  impact: 'Dashboard', // optional fallback label
-  impactImage: '/superstore-dashboard.png', // image to enlarge
-  impactImageLabel: 'Dashboard',
-  impactLink: '/Superstore_Dashboard.xlsx', // Excel file to open
-  impactLinkLabel: 'Excel Sheet',
-  skills: ['Excel', 'PivotTables', 'Power Query', 'Financial Analysis', 'Data Visualization']
+title: 'Superstore Sales & Profitability Dashboard',
+category: 'Financial Analysis',
+description:
+'Designed an interactive Excel dashboard analyzing Superstore sales, profit margins, and discounting strategies. Identified that discounts above 30% consistently led to negative profits, especially in Furniture, and recommended revised pricing strategies. Delivered executive-level insights on regional performance, seasonal trends, and customer segmentation.',
+image: ${import.meta.env.BASE_URL}superstore-dashboard.png,
+duration: '3 Weeks',
+teamSize: 'Individual Project',
+
+impact: 'Dashboard',
+impactImage: ${import.meta.env.BASE_URL}superstore-dashboard.png,
+impactImageLabel: 'Dashboard',
+
+impactLink: ${import.meta.env.BASE_URL}Superstore_Dashboard.xlsx,
+impactLinkLabel: 'Excel Sheet',
+
+skills: ['Excel', 'PivotTables', 'Power Query', 'Financial Analysis', 'Data Visualization'],
 }
 
 export default function RevenueProject(){

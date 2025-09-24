@@ -59,7 +59,7 @@ export default function ChurnProject(){
                 <li>• Random Forest → 86% accuracy, ROC AUC = 0.85, stronger recall for churners</li>
                 <li>• Feature Importance: Age, Estimated Salary, Balance, Credit Score, Products Held</li>
                 <li>• Generated customer churn risk scores for targeted intervention</li>
-                <li><a href='https://colab.research.google.com/drive/1G2VqCOCJe97K2ZwAlx9KskqKvO1hTeFy?usp=sharing'>Colab</a></li>
+                <li><a href='https://colab.research.google.com/drive/1G2VqCOCJe97K2ZwAlx9KskqKvO1hTeFy?usp=sharing'>Colab Notebook</a></li>
 
               </ul>
             </div>
